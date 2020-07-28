@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Task List</string>
+    <string name="todo_title_hint">Enter task title</string>
+    <string name="todo_title_label">Task</string>
+    <string name="todo_details_label">Additional Info</string>
+    <string name="todo_details_hint">Insert additional details</string>
+    <string name="todo_date_title">Date</string>
+    <string name="todo_status_label">Status</string>
+    <string name="todo_status_pending">Pending</string>
+    <string name="todo_status_cancel">Cancelled</string>
+    <string name="todo_status_complete">Complete</string>
+    <string name="date_picker_title">Task Date</string>
+    <string name="time_picker_title">Task Time</string>
+    <string name="new_task">New Task</string>
+    <string name="show_subtitle">Show Task Amount</string>
+    <string name="hide_subtitle">Hide Task Amount</string>
+    <string name="subtitle_format">%1$d tasks</string>
+    <string name="no_task">No tasks! Tap to add task. Swipe right to remove tasks</string>
+    <string name="remove_task">Task removed</string>
+</resources>

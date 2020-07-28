@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_title_label" />
+
+    <EditText
+        android:id="@+id/task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/todo_title_hint" />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_details_label" />
+
+    <EditText
+        android:id="@+id/task_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/todo_details_hint" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:listSeparatorTextViewStyle"
+        android:text="@string/todo_date_title"/>
+
+    <Button
+        android:id="@+id/task_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/task_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_status_label" />
+
+    <RadioGroup
+        android:id="@+id/status_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/status_pending"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/status_pending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="@string/todo_status_pending" />
+
+        <RadioButton
+            android:id="@+id/status_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="@string/todo_status_cancel" />
+
+        <RadioButton
+            android:id="@+id/status_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="@string/todo_status_complete" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قائمة الأبحاث</string>
+    <string name="todo_title_hint">ادخل الموضوع</string>
+    <string name="todo_title_label">الأبحاث</string>
+    <string name="todo_details_label">التفصيل</string>
+    <string name="todo_details_hint">ادخل التفصيلات</string>
+    <string name="todo_date_title">التاريخ</string>
+    <string name="todo_status_label">المستوى</string>
+    <string name="todo_status_pending">أثناء العمل</string>
+    <string name="todo_status_cancel">ملغى</string>
+    <string name="todo_status_complete">انتهت</string>
+    <string name="date_picker_title">التاريخ</string>
+    <string name="time_picker_title">الزمن</string>
+    <string name="new_task">ابحاث الجديدة</string>
+    <string name="show_subtitle">الأبحاث المشار اليه</string>
+    <string name="hide_subtitle">الأبحاث المخفي</string>
+    <string name="subtitle_format">%1$d الأبحاث</string>
+    <string name="no_task">عدم وجود البحث وزد عملية البحث اسحب الى اليمين لإخراج الأبحاث</string>
+    <string name="remove_task">الأبحاث يبعد</string>
+</resources>

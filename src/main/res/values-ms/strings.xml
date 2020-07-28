@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Senarai Tugasan</string>
+    <string name="todo_title_hint">Masukkan Tajuk</string>
+    <string name="todo_title_label">Tugasan</string>
+    <string name="todo_details_label">Perincian</string>
+    <string name="todo_details_hint">Masukkan Perincian</string>
+    <string name="todo_date_title">Tarikh</string>
+    <string name="todo_status_label">Status</string>
+    <string name="todo_status_pending">Dalam Proses</string>
+    <string name="todo_status_cancel">Batal</string>
+    <string name="todo_status_complete">Selesai</string>
+    <string name="date_picker_title">Tarikh</string>
+    <string name="time_picker_title">Masa</string>
+    <string name="new_task">Tugasan Baru</string>
+    <string name="show_subtitle">Tunjuk Tugasan</string>
+    <string name="hide_subtitle">Sembunyi Tugasan</string>
+    <string name="subtitle_format">%1$d tugasan</string>
+    <string name="no_task">Tiada tugasan! Tambahkan tugasan. Tolak ke kanan untuk membuang tugasan</string>
+    <string name="remove_task">Tugasan dibuang</string>
+</resources>
